@@ -1,0 +1,390 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br" class="no-js">
+
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Author Meta -->
+    <meta name="author" content="CodePixar">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>Example Checkout - Purcinelli</title>
+
+    <!--================ CSS =================-->
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/nouislider.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/main.css">
+    
+    <link rel="stylesheet" href="css/card.css">
+</head>
+
+<body>
+    <!-- Start Header Area -->
+    <header class="header_area sticky-header">
+        <div class="main_menu">
+            <nav class="navbar navbar-expand-lg navbar-light main_box">
+                <div class="container">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- End Header Area -->
+    <!-- Start Banner Area -->
+    <section class="banner-area organic-breadcrumb">
+        <div class="container">
+            <div class=" d-flex flex-wrap align-items-center justify-content-end">
+                <div class="col-first">
+                    <h1 style="color:white !important">Example Checkout</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Banner Area -->
+    <!--================Checkout Area =================-->
+    <section class="checkout_area section_gap">
+        <div class="container">
+            <form class="contact_form" action="#" method="post" novalidate="novalidate">
+
+                <div class="card">
+                    <div class="card-header">
+                        Checkout
+                    </div>
+                    <div class="card-body">
+                        <div class="billing_details">
+                            <div class="row">
+                                <div class="col-lg-8">
+                                    <h3>Detalhes do Pagamento</h3>
+                                    <div class="row">
+                                        <div class="col-md-6 form-group">
+                                            <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF *" required>
+                                        </div>
+                                        <div class="col-md-6 form-group">
+                                            <input type="date" class="form-control" id="nasc" name="nasc" placeholder="Data Nascimento" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-6 form-group p_star">
+                                            <input type="text" class="form-control" id="first" name="name" placeholder="Nome *" required>
+                                        </div>
+                                        <div class="col-md-6 form-group p_star">
+                                            <input type="text" class="form-control" id="last" name="name" placeholder="Sobrenome *" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-12 form-group p_star">
+                                            <input type="text" class="form-control" id="email" name="compemailany" placeholder="Email *" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-4 form-group p_star">
+                                            <input type="text" class="form-control" id="ddd" name="ddd" placeholder="DDD *" required>
+                                        </div>
+                                        <div class="col-md-8 form-group p_star">
+                                            <input type="text" class="form-control" id="cellphone" name="cellphone" placeholder="99999-9999 *" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4 form-group p_star">
+                                            <input type="text" class="form-control" id="cep" name="cep" placeholder="CEP *" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-12 form-group p_star">
+                                            <input type="text" class="form-control" id="address" name="address" placeholder="Ex. Rua, Avenida, Travessa, etc. *" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-2 form-group p_star">
+                                            <input type="text" class="form-control" id="address_number" name="address_number" placeholder="N° *" required>
+                                        </div>
+                                        <div class="col-md-5 form-group p_star">
+                                            <input type="text" class="form-control" id="address_complement" name="address_complement" placeholder="Complemento">
+                                        </div>
+                                        <div class="col-md-5 form-group p_star">
+                                            <input type="text" class="form-control" id="address_districtname" name="address_districtname" placeholder="Bairro *" required>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <div class="col-md-4 form-group p_star">
+                                            <input type="text" class="form-control" id="address_city" name="address_city" placeholder="Cidade *" required>
+                                        </div>
+                                        <div class="col-md-4 form-group p_star">
+                                            <select class="country_select form-control" id="address_state">
+                                                <option value="">Selecione...</option>
+                                                <option value="AC">AC</option>
+                                                <option value="AL">AL</option>
+                                                <option value="AP">AP</option>
+                                                <option value="AM">AM</option>
+                                                <option value="BA">BA</option>
+                                                <option value="CE">CE</option>
+                                                <option value="DF">DF</option>
+                                                <option value="ES">ES</option>
+                                                <option value="GO">GO</option>
+                                                <option value="MA">MA</option>
+                                                <option value="MT">MT</option>
+                                                <option value="MS">MS</option>
+                                                <option value="MG">MG</option>
+                                                <option value="PA">PA</option>
+                                                <option value="PB">PB</option>
+                                                <option value="PR">PR</option>
+                                                <option value="PE">PE</option>
+                                                <option value="PI">PI</option>
+                                                <option value="RJ">RJ</option>
+                                                <option value="RN">RN</option>
+                                                <option value="RS">RS</option>
+                                                <option value="RO">RO</option>
+                                                <option value="RR">RR</option>
+                                                <option value="SC">SC</option>
+                                                <option value="SP">SP</option>
+                                                <option value="SE">SE</option>
+                                                <option value="TO">TO</option>
+                                                <option value="EX">EX</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-md-4 form-group">
+                                            <input type="text" class="form-control" id="address_district" name="address_district" placeholder="País" value="Brasil" readonly="readonly">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="order_box">
+                                        <h2>Informações do Pedido</h2>
+                                        <ul class="list list_2">
+                                            <li><a href="#">Product <span>Total</span></a></li>
+                                        </ul>
+                                        <ul class="list" id="products_list">
+                                            <li class="product">
+                                                <a href="#" class="product_desc" data-product_desc="Caneta Bic 1">
+                                                    Caneta Bic 1
+                                                    <span class="middle small">
+                                                        qtde: <span class="product_qty">1</span>
+                                                    </span>
+                                                    <span class="last">R$<span class="product_amount">1.00</span></span>
+                                                </a>
+                                            </li>
+                                            <li class="product">
+                                                <a href="#" class="product_desc" data-product_desc="Caneta Bic 2">
+                                                    Caneta Bic 2
+                                                    <span class="middle small">
+                                                        qtde: <span class="product_qty">1</span>
+                                                    </span>
+                                                    <span class="last">R$<span class="product_amount">1.00</span></span>
+                                                </a>
+                                            </li>
+                                            <li class="product">
+                                                <a href="#" class="product_desc" data-product_desc="Caneta Bic 3">
+                                                    Caneta Bic 3
+                                                    <span class="middle small">
+                                                        qtde: <span class="product_qty">1</span>
+                                                    </span>
+                                                    <span class="last">R$<span class="product_amount">1.00</span></span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <ul class="list list_2">
+                                            <li><a href="#">Total <span id="totalValue" name="totalValue"></span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+
+                <div class="card">
+                    <div class="card-header">
+                        Formas de Pagamento
+                    </div>
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="card col-md-6">
+                                <div class="card-header">
+                                    Cartão de Crédito
+                                </div>
+                                <div class="card-body">
+                                    <div class="card-wrapper col-md-12"></div>
+                                    <div class="form-container col-md-12 mt-1">
+                                        <div class="row">
+                                            <div class="form-group col-md-12">
+                                                <input class="form-control" id="nameCard" name="name" maxlength="20" type="text" placeholder="Nome no Cartão">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-12">
+                                                <input class="form-control" id="cardnumber" name="number" type="text" placeholder="Número do Cartão">
+                                                <img name="bandeiraCartao" id="bandeiraCartao" style="position: absolute;left: 393px;top: 4px;opacity: 0.2;" />
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-5">
+                                                <input class="form-control" id="expireCard" name="expiry" type="text" placeholder="Validade (mm/yy)">
+                                            </div>
+                                            <div class="form-group col-md-4">
+                                                <input class="form-control" id="cvc" name="cvc" type="text" placeholder="CVV">
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="form-group col-md-12">
+                                                <div class="field" id="installmentsWrapper" style="display:none;">
+                                                    <select name="installmentQuantity" id="installmentQuantity" class="form-control text-left"></select>
+                                                    <input type="hidden" name="installmentValue" id="installmentValue" />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <input type="hidden" name="creditCardToken" id="creditCardToken" />
+                                            <input type="hidden" name="creditCardBrand" id="creditCardBrand" />
+
+                                            <input type="submit" id="creditButton" class="btn btn-primary btn-block mx-auto" style="width: 200px;display: block;" value="Finalizar compra" />
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card col-md-6">
+                                <div class="card-header">
+                                    Boleto Bancário
+                                </div>
+                                <div class="card-body">
+                                    <div class="col-md-12 " id="boleto">
+                                        <img src="img/boleto.png" class="mx-auto" style="width: 150px;display: block;">
+                                        <button id="boletoButton" class="btn btn-primary btn-block mx-auto" style="width: 200px;display: block;">Gerar Boleto</button>
+                                        <br>
+                                        <br>
+                                        <a id="btnImprimirBoleto" href=''>
+                                            <center>
+                                                <button class='btn-success btn-block btn-lg' style="display:none;">Imprimir meu boleto</button>
+                                            </center>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <!--================End Checkout Area =================-->
+    <!-- start footer Area -->
+    <footer class="footer-area section_gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>About Us</h6>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
+                            ut labore dolore
+                            magna aliqua.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4  col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>Newsletter</h6>
+                        <p>Stay update with our latest</p>
+                        <div class="" id="mc_embed_signup">
+
+                            <form target="_blank" novalidate="true" action="" method="get" class="form-inline">
+                                <div class="d-flex flex-row">
+                                    <input class="form-control" name="EMAIL" placeholder="Enter Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Email '" required="" type="email">
+                                    <button class="click-btn btn btn-default" style="background: linear-gradient(90deg, #005aff 0%, #7bacbf 100%) !important;">
+                                        <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+                                    </button>
+                                    <div style="position: absolute; left: -5000px;">
+                                        <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                                    </div>
+                                </div>
+                                <div class="info"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h6>Follow Us</h6>
+                        <p>Let us be social</p>
+                        <div class="footer-social d-flex align-items-center">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom d-flex justify-content-center align-items-center flex-wrap">
+                <p class="footer-text m-0">
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | Develop by <a href="https://github.com/brunopurcinelli" target="_blank" style="color: #7bacbf !important;">Bruno Purcinelli</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- End footer Area -->
+
+    <div class="modal" tabindex="-1" role="dialog">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mensagens do Sistema</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body" id="modal-body">
+                    
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Confirmar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/vendor/jquery-2.2.4.min.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js'></script>
+    <script src="js/vendor/bootstrap.min.js"></script>
+
+    <!--Se Estiver no Ambiente produção, Descomentar o script abaixo-->
+    <!--<script src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"></script>-->
+    <!--Se Estiver no Ambiente produção, Comentar o script abaixo-->
+    <script src="https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"></script>
+
+    <script src="payment/js/payment.js"></script>
+    <script src="js/checkout.js"></script>
+    <script src="js/cep.js"></script>
+    <script src="js/card.js"></script>
+    <script>
+        new Card({
+            form: '.form-container',
+            container: '.card-wrapper'
+        });
+    </script>
+</body>
+
+</html>
